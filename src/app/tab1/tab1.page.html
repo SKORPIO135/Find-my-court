@@ -1,17 +1,31 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 1
+      Find My Court
     </ion-title>
   </ion-toolbar>
 </ion-header>
+ 
+<ion-content class="background">
+  
+  <div #map id="map" ></div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div>
+  <div >
+    <ion-card id = "firstcard">
+      <ion-card-header>
+        <ion-card-title style="color: black;">Nearby Tennis Courts: </ion-card-title>
+        <ion-card-subtitle style="padding: left; color: black	"></ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <h1></h1>
+        <div class = "listdiv" scrolly="true" style="max-height:120px">
+        
+      </div>
+      <ion-button expand="block" fill="solid" (click)="Find()">Find</ion-button>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</div>
 </ion-content>

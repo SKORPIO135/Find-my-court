@@ -1,0 +1,75 @@
+PODS:
+  - Capacitor (3.3.3):
+    - CapacitorCordova
+  - CapacitorApp (1.0.6):
+    - Capacitor
+  - CapacitorCommunityCapacitorGooglemapsNative (1.1.5):
+    - Capacitor
+    - GoogleMaps
+  - CapacitorCordova (3.3.3)
+  - CapacitorGeolocation (1.3.0):
+    - Capacitor
+  - CapacitorHaptics (1.1.3):
+    - Capacitor
+  - CapacitorKeyboard (1.1.3):
+    - Capacitor
+  - CapacitorStatusBar (1.0.6):
+    - Capacitor
+  - CordovaPlugins (3.3.2):
+    - CapacitorCordova
+  - GoogleMaps (6.0.1):
+    - GoogleMaps/Maps (= 6.0.1)
+  - GoogleMaps/Base (6.0.1)
+  - GoogleMaps/Maps (6.0.1):
+    - GoogleMaps/Base
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCommunityCapacitorGooglemapsNative (from `../../node_modules/@capacitor-community/capacitor-googlemaps-native`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCommunityCapacitorGooglemapsNative:
+    :path: "../../node_modules/@capacitor-community/capacitor-googlemaps-native"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorGeolocation:
+    :path: "../../node_modules/@capacitor/geolocation"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CordovaPlugins:
+    :path: "../capacitor-cordova-ios-plugins"
+
+SPEC CHECKSUMS:
+  Capacitor: 0b3475cfa2f6849a6d83ee14836a592a6ada3b28
+  CapacitorApp: 95a34b701afe580c9b1c1a56ab8a522ce080925e
+  CapacitorCommunityCapacitorGooglemapsNative: 78dbec6ac6190559922c5f12b652de44b3691c62
+  CapacitorCordova: ae44f9ca2af48db94caa11420148d8ed14e55217
+  CapacitorGeolocation: a3aebdde54989fb3343d2e224efee72b6ef98123
+  CapacitorHaptics: d8a540ff5a935d9aae50e70800a670e951700592
+  CapacitorKeyboard: ded9e048d9710b9149fb2b6db885c07f7dec54c3
+  CapacitorStatusBar: 867707b03a4f319dfe5a16447ad056528c04dcf7
+  CordovaPlugins: 1c75a6d507e1ef9e7460b797479e6ed47beccbf3
+  GoogleMaps: c213fc2334b7374144cede914da779b99be0ab74
+
+PODFILE CHECKSUM: 79d6ead768bb7ae31d038d48da46ef3402297ecf
+
+COCOAPODS: 1.11.2
